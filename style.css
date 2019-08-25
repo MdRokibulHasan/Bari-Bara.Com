@@ -1,0 +1,100 @@
+
+.menu
+{
+    width:1011px;
+    background:#34ebd2;
+  min-height:50px;
+ margin:0px auto;
+ float: right;
+margin-bottom:50px;
+
+}
+
+.menu ul
+{
+margin:0px;
+padding: 0px;
+
+}
+.menu ul li
+{
+float: left;
+list-style: none;
+border-right: 1px solid #72ede5; 
+border-left: 1px solid #6dede3;
+
+}
+
+.menu ul li :hover
+{
+    box-shadow:0px 2px 10;
+    color: black;
+    background-color: white;
+    
+
+}
+
+.menu ul li:first-child
+{
+    border-left: 0px solid;
+}
+.menu ul li a
+
+{
+    text-decoration: none;
+    padding:10px 15px;
+    display: block;
+    color: azure;
+    font-family: Verdana;
+    font-size: 20px;
+
+}
+.logo
+{
+height:30%;
+width:20%;
+
+margin-top:-140px;
+}
+header{
+    background: #3498eb;
+}
+.h{
+    text-align: center;
+    font-size:60px;
+    color:white;
+    
+}
+.h:hover{
+    color: #fc2600;
+}
+.search{
+    width: 400px;
+    height: 53px;
+
+}
+.searchb{
+    width: 135px;
+    height: 53;
+    background-color:#2acaba;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: white;
+    box-sizing: border-box;
+}
+.searchb:hover{
+
+    color: black;
+background-color: white;
+}
+.toletitem{
+    width:18%;
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+}
+.input-group-text { width: 50%;
+    height: 23px;
+
+
+}
